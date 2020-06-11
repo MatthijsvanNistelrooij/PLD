@@ -1,6 +1,144 @@
+
+body {
+  background-image: url("images/background1.jpg");
+
+  height: 100vh;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
   }
+
+.side-menu {
+  margin: 5px;
+  padding: 15px;
+  height: 50vh;
+  width: 5%;
+  border: 2px solid green;
+
+}
+
+
+  .main{ 
+    height: 80vh;
+    margin-left: 10%;
+    border-radius: 1px;
+    max-width: 70%;
+    border: 10px solid rgb(170, 170, 170);
+    box-shadow: 0 0 10px rgb(129, 129, 129);
+  }
+
+ .header {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: 3px solid green;
+  max-width: 40%;
+}
+
+img {
+-webkit-animation: anim 10s infinite linear;
+animation: anim 2s infinite linear;
+}
+
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+h1 {
+  color: red;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation: anim 10s infinite linear;
+  animation: anim 2s infinite linear;
+}
+  @keyframes blink { 80% { border-color:rgb(26, 151, 36) ; }  }
+
+
+  @-webkit-keyframes anim {
+      from {-webkit-transform: rotateY(0deg);}
+      to {-webkit-transform: rotateY(360deg);}
+  }
+  
+  @keyframes anim {
+      from {transform: rotateY(0deg);}
+      to {transform: rotateY(360deg);}
+  }
+  
+
+.menu {
+  padding: 1%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+}
+
+@keyframes blink { 
+  50% { border-color: #ff0000; } 
+}
+
+
+.header {
+  
+  border: 3px solid green;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink { 50% { border-color:rgb(228, 224, 27) ; }  }
+
+
+
+.menu {
+  border: 3px solid green;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+/* 
+@keyframes blink { 
+  0%   {border-color: red;}
+  25%  {border-color: yellow;}
+  50%  {border-color: blue;}
+  100% {border-color: green;}
+} */
+
+.catalog {
+  color: red;
+  margin-top: 10px;
+  margin-left: 30%;
+  width: 40%;
+  border: 10px solid rgb(170, 170, 170);
+  box-shadow: 0 0 10px rgb(129, 129, 129);
+  text-align: center;
+}
+
+.player {
+color: red;
+  padding-bottom: 3%;
+  text-align: center;
+  border: 10px solid rgb(170, 170, 170);
+  box-shadow: 0 0 10px rgb(129, 129, 129);
+  width: 60%;
+  margin-left: 20%;
+}
+
+.h3-size {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.center-text {
+  text-align: center;
+}
