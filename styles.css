@@ -16,7 +16,7 @@ body {
   margin: 5px;
   padding: 15px;
   height: 50vh;
-  width: 5%;
+  width: 45px;
   border: 2px solid green;
 
 }
@@ -83,8 +83,10 @@ h1 {
   margin: auto;
   width: 50%;
   border: 3px solid green;
+  border: 3px solid green;
+  animation: blink 1s;
+  animation-iteration-count: infinite;
 }
-
 @keyframes blink { 
   50% { border-color: #ff0000; } 
 }
@@ -101,18 +103,9 @@ h1 {
 
 
 
-.menu {
-  border: 3px solid green;
-  animation: blink 1s;
-  animation-iteration-count: infinite;
-}
-/* 
-@keyframes blink { 
-  0%   {border-color: red;}
-  25%  {border-color: yellow;}
-  50%  {border-color: blue;}
-  100% {border-color: green;}
-} */
+
+
+
 
 .catalog {
   text-align: center;
