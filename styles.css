@@ -15,7 +15,7 @@ body {
 .side-menu {
   margin: 5px;
   padding: 15px;
-  height: 50vh;
+  height: auto;
   width: 45px;
   border: 2px solid green;
 
