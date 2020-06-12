@@ -41,7 +41,7 @@ body {
   max-width: 40%;
 }
 
-img {
+.spin {
 -webkit-animation: anim 10s infinite linear;
 animation: anim 2s infinite linear;
 }
