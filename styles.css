@@ -18,7 +18,6 @@ body {
   height: auto;
   width: 45px;
   border: 2px solid green;
-
 	-webkit-animation: blink .5s step-end infinite alternate; 
 
 }
@@ -28,11 +27,10 @@ body {
     height: 80vh;
     padding: 12px;
     margin-left: 10%;
-    width: 80%;
+    width: 100%;
     border: 3px solid green;
     animation: blink 1s;
     animation-iteration-count: infinite;
-      
 	-webkit-animation: blink .5s step-end infinite alternate; 
 
   }
@@ -40,14 +38,12 @@ body {
  .header {
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 70%;
   padding: 10px;
   border: 10px solid green;
-  max-width: 40%;
-  
+  max-width: 70%;
   animation: blink 1s;
   animation-iteration-count: infinite;
-    
 	-webkit-animation: blink .5s step-end infinite alternate; 
 
 }
@@ -93,7 +89,7 @@ h1 {
   padding: 1%;
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 70%;
   border: 3px solid green;
   border: 3px solid green;
   animation: blink 1s;
@@ -147,7 +143,6 @@ h1 {
   text-align: center;
 }
 
-
 .logo1 {
   color: yellow;
 }
@@ -158,24 +153,17 @@ h1 {
 
 .column1 {
   flex: 50%;
-  max-width: 20%;
+  max-width: 10%;
 }
 
 .picture1 {
-  border: 4px solid;
-	position: fixed;
-	top: 10px;
-  left: 10%;
-	text-align:center ;
-	font-family: monospace ;
   border: 6px dashed rgb(204, 73, 12);
   position: relative;
-
   margin-top: 1%;
   margin-left: 5%;
   width: 80%;
   height: auto;
-  max-width: 700px;
+  
   
 	-webkit-animation: blink .5s step-end infinite alternate; 
 
@@ -191,6 +179,7 @@ h1 {
 }
 
 .dance1{
+  float: center;
   height: 280px;
   width: auto;
 }
@@ -198,4 +187,17 @@ h1 {
 .dance2{
   height: 200px;
   width: auto;
+  
+}
+
+
+.dance3{
+
+  margin-bottom: -15%;
+  height: 200px;
+  width: auto;
+}
+.images {
+  max-width: 80vw;
+  max-height: 40vh;
 }
