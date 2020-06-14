@@ -27,7 +27,7 @@ body {
     height: 80vh;
     padding: 12px;
     margin-left: 10%;
-    width: 100%;
+    width: 80%;
     border: 3px solid green;
     animation: blink 1s;
     animation-iteration-count: infinite;
