@@ -26,7 +26,7 @@ var myObstacles = [];
 var myScore;
 
 function startGame() {
-    myGamePiece = new component(30, 10, "PLD", 10, 120, "image");
+    myGamePiece = new component(30, 10, "", 10, 120, "image");
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
     myGameArea.start();
 }
@@ -151,7 +151,7 @@ function clearmove() {
 
 <div style="text-align:center;width:500px;margin-left:25%;" >
     
-  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" style="height: 50px; width: 50px;"><i class="fa fa-sort-up" style="color:rgb(223, 169, 20)"></i></button><br><br>
+  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" style="height: 50px; width: 50px;"><i class="fa fa-sort-up"></i></button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()" style="height: 50px; width: 50px;"><i class="fa fa-caret-left"></i></button> 
   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
