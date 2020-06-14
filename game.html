@@ -36,8 +36,8 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 1080;
-        this.canvas.height = 500;
+        this.canvas.width = 840;
+        this.canvas.height = 400;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
@@ -151,7 +151,7 @@ function clearmove() {
 </script>
 <br><br><br><br>
 
-<div style="text-align:center;width:500px;margin-left:25%;" >
+<div style="text-align:center;width:500px;margin-left:250px" >
     
   <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" style="height: 50px; width: 50px;"><i class="fa fa-sort-up"></i></button><br><br>
   <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()" style="height: 50px; width: 50px;"><i class="fa fa-caret-left"></i></button> 
