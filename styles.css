@@ -68,15 +68,7 @@ h1 {
   color: red;
   animation: blink 1s;
   animation-iteration-count: infinite;
-  -webkit-animation: anim 10s infinite linear;
-  animation: anim 2s infinite linear;
-}
-  @keyframes blink { 80% { border-color:rgb(26, 151, 36) ; }  }
 
-
-  @-webkit-keyframes anim {
-      from {-webkit-transform: rotateY(0deg);}
-      to {-webkit-transform: rotateY(360deg);}
   }
   
   @keyframes anim {
@@ -163,8 +155,6 @@ h1 {
   margin-left: 5%;
   width: 80%;
   height: auto;
-  
-  
 	-webkit-animation: blink .5s step-end infinite alternate; 
 
 }
@@ -192,11 +182,11 @@ h1 {
 
 
 .dance3{
-
   margin-bottom: -15%;
   height: 200px;
   width: auto;
 }
+
 .images {
   max-width: 80vw;
   max-height: 40vh;
